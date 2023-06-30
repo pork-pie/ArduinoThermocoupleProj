@@ -3,7 +3,7 @@
 // include the lcd library code:
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
-// include the Ethernet library code;
+// include the Ethernet library code
 #include <SPI.h>
 #include <Ethernet.h>
 
@@ -74,6 +74,7 @@ void loop() {
     lcd.print("    ");
     x = x + 1;
    }
+  
 }
 
 
