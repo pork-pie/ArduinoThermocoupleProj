@@ -1,4 +1,4 @@
-// include the thermocouple library code
+// include the thermocouple library code;
 #include "max6675.h"
 // include the lcd library code:
 #include <Wire.h>
@@ -74,6 +74,7 @@ void loop() {
     lcd.print("    ");
     x = x + 1;
    }
+  
 }
 
 
